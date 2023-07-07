@@ -1,0 +1,17 @@
+
+ToyTypes={"Doll", "Car", "Train"};
+ComponentTypes = {"Body", "Wheels", "Engine", "Battery"};
+
+NbPeriods = 4;
+MaxBuildPerPeriod = [5, 6, 7, 8];
+
+MaxDemand = [[3, 5, 3, 5], [5, 3, 5, 3], [3, 3, 3, 3]];
+MinDemand = [[1, 2, 1, 2], [2, 1, 2, 1], [1, 1, 1, 1]];
+
+Toys = [
+   <{"Body", "Wheels", "Battery"}, 20, 15>,
+   <{"Body", "Wheels", "Engine"}, 25, 10>,
+   <{"Body", "Wheels", "Engine", "Battery"}, 30, 12>
+];
+                     
+TotalBuild = [30, 40, 20];
